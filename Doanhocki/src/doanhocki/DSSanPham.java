@@ -10,7 +10,7 @@ interface InterdanhSach{
 	void docFile(String fileName) throws IOException;
 	void ghiFile(String fileName) throws IOException;
 }
-public class DSSanPham implements IdanhSach{
+public class DSSanPham implements InterdanhSach{
 	Scanner in = new Scanner(System.in);
 	private int soluong;
 	private SanPham[] ds;
